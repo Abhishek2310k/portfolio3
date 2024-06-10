@@ -9,6 +9,7 @@ import PureCounter from '@srexi/purecounterjs';
 
 import 'aos/dist/aos.css';
 import Facts from './components/Facts/Facts';
+import Skills from './components/Skills/Skills';
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
       <main id='main'>
         <About/>
         <Facts/>
+        <Skills/>
       </main>
     </div>
   );
