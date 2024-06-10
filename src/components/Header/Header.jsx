@@ -28,7 +28,7 @@ const Header = () => {
         <div class="d-flex flex-column">
             <div className='profile'>
                 <img src="profile-img.jpg" alt="" class="img-fluid rounded-circle"/>
-                <h1 class="text-light"><a href="/">Mohit Bhaiya</a></h1>
+                <h1 class="text-light"><a href="/">Mohit</a></h1>
                 <div class="social-links mt-3 text-center">
                     <a href="#" class="twitter"><i class="bx bxl-twitter"><FaXTwitter/></i></a>
                     <a href="#" class="facebook"><i class="bx bxl-facebook"><ImLinkedin2/></i></a>
