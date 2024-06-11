@@ -10,6 +10,7 @@ import 'aos/dist/aos.css';
 import Facts from './components/Facts/Facts';
 import Skills from './components/Skills/Skills';
 import Portfolio from './components/Portfolio/Portfolio';
+import Services from './components/Services/Services';
 
 function App() {
 
@@ -27,6 +28,7 @@ function App() {
         <Facts/>
         <Skills/>
         <Portfolio/>
+        <Services/>
       </main>
     </div>
   );
