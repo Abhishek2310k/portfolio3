@@ -11,6 +11,7 @@ import Facts from './components/Facts/Facts';
 import Skills from './components/Skills/Skills';
 import Portfolio from './components/Portfolio/Portfolio';
 import Services from './components/Services/Services';
+import Contact from './components/Contact/Contact';
 
 function App() {
 
@@ -29,6 +30,7 @@ function App() {
         <Skills/>
         <Portfolio/>
         <Services/>
+        <Contact/>
       </main>
     </div>
   );
