@@ -5,7 +5,6 @@ import { FaFacebookF } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
 import { IoHomeOutline } from "react-icons/io5";
 import { CgProfile } from "react-icons/cg";
-import { MdContactPage } from "react-icons/md";
 import { MdOutlineWebAsset } from "react-icons/md";
 import { BsMenuButtonWideFill } from "react-icons/bs";
 import { MdMailOutline } from "react-icons/md";
@@ -16,7 +15,7 @@ const Header = () => {
 
   const [visible,setVisible] = useState('orig_header');
   const changeState = () => {
-    if (visible == 'orig_header') setVisible('shifted_header');
+    if (visible === 'orig_header') setVisible('shifted_header');
     else setVisible('orig_header');
   }
 
@@ -39,7 +38,6 @@ const Header = () => {
                   <ul>
                     <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <IoHomeOutline style={{color:'#149ddd'}}/> <span>Home</span></a></li>
                     <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <CgProfile style={{color:'#149ddd'}}/> <span>About</span></a></li>
-                    <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <MdContactPage style={{color:'#149ddd'}}/> <span>Resume</span></a></li>
                     <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <MdOutlineWebAsset style={{color:'#149ddd'}}/> <span>Portfolio</span></a></li>
                     <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <BsMenuButtonWideFill style={{color:'#149ddd'}}/> <span>Services</span></a></li>
                     <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <MdMailOutline style={{color:'#149ddd'}}/> <span>Contact</span></a></li>

@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header/Header';
 import Hero from './components/Hero/Hero';
@@ -10,6 +9,7 @@ import PureCounter from '@srexi/purecounterjs';
 import 'aos/dist/aos.css';
 import Facts from './components/Facts/Facts';
 import Skills from './components/Skills/Skills';
+import Portfolio from './components/Portfolio/Portfolio';
 
 function App() {
 
@@ -26,6 +26,7 @@ function App() {
         <About/>
         <Facts/>
         <Skills/>
+        <Portfolio/>
       </main>
     </div>
   );
