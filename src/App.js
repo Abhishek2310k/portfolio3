@@ -7,10 +7,10 @@ import { useEffect } from 'react';
 import PureCounter from '@srexi/purecounterjs';
 
 import 'aos/dist/aos.css';
-import Facts from './components/Facts/Facts';
+import Highlights from './components/Highlights/Highlights';
 import Skills from './components/Skills/Skills';
 import Portfolio from './components/Portfolio/Portfolio';
-import Services from './components/Services/Services';
+import Services from './components/Others/Others';
 import Contact from './components/Contact/Contact';
 
 function App() {
@@ -26,7 +26,7 @@ function App() {
       <Hero/>
       <main id='main'>
         <About/>
-        <Facts/>
+        <Highlights/>
         <Skills/>
         <Portfolio/>
         <Services/>

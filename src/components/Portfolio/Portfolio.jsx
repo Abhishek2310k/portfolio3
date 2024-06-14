@@ -32,17 +32,17 @@ const Portfolio = () => {
               </li>
               <li
                 data-filter=".filter-app"
-                onClick={() => setTypeProject('mechanical')}
-                className={typeProject === 'mechanical' ? 'filter-active' : ''}
+                onClick={() => setTypeProject('simulation')}
+                className={typeProject === 'simulation' ? 'filter-active' : ''}
               >
-                Mechanical
+                Simulation
               </li>
               <li
                 data-filter=".filter-card"
-                onClick={() => setTypeProject('robotics')}
-                className={typeProject === 'robotics' ? 'filter-active' : ''}
+                onClick={() => setTypeProject('hardware')}
+                className={typeProject === 'hardware' ? 'filter-active' : ''}
               >
-                Robotics
+                Hardware
               </li>
             </ul>
           </div>
